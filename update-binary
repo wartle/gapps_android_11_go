@@ -116,6 +116,7 @@ rm -fr $sar/product/priv-app/Dialer;
 rm -fr $sar/product/priv-app/OneTimeInitializer;
 ui_print "  - $sar/system_ext/priv-app";
 rm -fr $sar/system_ext/priv-app/Gallery2;
+rm -fr $sar/system_ext/priv-app/Camera2;
 rm -fr $sar/system_ext/priv-app/Snap;
 ui_print "  - $sar/etc";
 rm -f $sar/etc/sysconfig/googledialergo-sysconfig.xml;
