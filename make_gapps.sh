@@ -1,12 +1,12 @@
 #!/bin/bash
-DISP="Lenovo A6010";
-DEVICE="a6010";
-SYSBLK="/dev/block/mmcblk0p23";
+DISP="Nexus 4";
+DEVICE="mako";
+SYSBLK="/dev/block/mmcblk0p21";
 
 if [ "$1" != "default" ] && [ "$1" != "clean" ] && [ "$#" -ne "3" ]; then
 		echo "Usage: ./make_gapps.sh <DISPLEYABLE DEVICE NAME> <DEVICE CODENAME> <SYSTEM_PARTITION_BLOCK_DEVICE>";
 		echo " ";
-		echo "Example: ./make_gapps.sh \"Lenovo A6010\" \"a6010\" \"/dev/block/mmcblk0p23\"";
+		echo "Example: ./make_gapps.sh \"Nexus 4\" \"mako\" \"/dev/block/mmcblk0p21\"";
 		exit 1;
 fi
 
